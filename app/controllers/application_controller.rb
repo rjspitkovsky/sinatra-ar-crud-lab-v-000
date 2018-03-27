@@ -28,5 +28,5 @@ class ApplicationController < Sinatra::Base
     "Hello World"
     # @post = Post.find(params[:id])
     # erb :show
-  end 
+  end
 end
