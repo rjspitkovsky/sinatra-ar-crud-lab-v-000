@@ -4,6 +4,8 @@ class CreatePost < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :content
 
+      
+
     end
   end
 end
