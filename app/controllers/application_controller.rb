@@ -13,10 +13,10 @@ class ApplicationController < Sinatra::Base
     erb :new
   end
 
-  post '/posts' do 
-    @posts = Post.all 
+  post '/posts' do
+    @posts = Post.all
 
-    erb :index 
+    erb :index
   end 
-    
+
 end
